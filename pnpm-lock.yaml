@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@vue/runtime-core':
+        specifier: ^3.4.37
+        version: 3.4.37
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.14
